@@ -35,7 +35,7 @@ class test01_login(seldom.TestCase):
 
     def test01(self):
         """测试示例1"""
-        self.dr.search_input(key='百度一下')
+        self.dr.search_input(key='你')
         self.dr.search_button()
         self.assertText("百度一下")
         print('用例说明：test01')
@@ -43,28 +43,28 @@ class test01_login(seldom.TestCase):
     def test02(self):
         """测试示例2"""
         self.dr.search_input_loc.clear()
-        self.dr.search_input_loc.send_keys('百度一下')
+        self.dr.search_input_loc.send_keys('是')
         self.dr.search_button_loc.click()
         self.assertText("百度一下")
         print('用例说明：test02')
 
     def test03(self):
         """测试示例3"""
-        self.dr.search_input(key='百度一下')
+        self.dr.search_input(key='最')
         self.dr.search_button()
         self.assertText("百度一下")
         print('用例说明：test03')
 
     def test04(self):
         """测试示例4"""
-        self.dr.search_input(key='百度一下')
+        self.dr.search_input(key='棒')
         self.dr.search_button()
-        self.assertText("百度一下")
+        self.assertText("百度一下4")
         print('用例说明：test04')
 
     def test05(self):
         """测试示例5"""
-        self.dr.search_input(key='百度一下')
+        self.dr.search_input(key='的')
         self.dr.search_button()
         self.assertText("百度一下")
         print('用例说明：test05')
