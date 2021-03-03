@@ -1,0 +1,25 @@
+[32m2021-03-03 15:45:16 [INFO] 
+            _      _                   
+           | |    | |                  
+ ___   ___ | |  __| |  ___   _ __ ___  
+/ __| / _ \| | / _` | / _ \ | '_ ` _ \ 
+\__ \|  __/| || (_| || (_) || | | | | |
+|___/ \___||_| \__,_| \___/ |_| |_| |_| 
+-----------------------------------------
+                             @itest.info
+[0m
+[32m2021-03-03 15:45:34 [INFO] 👀 assertText: 百度一下.[0m
+[31m2021-03-03 15:45:59 [ERROR] Message: chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+[0m
+[31m2021-03-03 15:46:23 [ERROR] Message: chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+[0m
+[31m2021-03-03 15:46:47 [ERROR] Message: chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+[0m
+[31m2021-03-03 15:47:12 [ERROR] Message: chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+[0m
+[32m2021-03-03 15:47:14 [INFO] generated html file: file:///D:\pycharmpro\UIAutoDemo\reports\2021_03_03_15_45_16_result.html[0m
+[32m2021-03-03 15:47:26 [INFO]  📧 Email sent successfully!![0m

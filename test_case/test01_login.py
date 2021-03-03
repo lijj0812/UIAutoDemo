@@ -45,7 +45,7 @@ class test01_login(seldom.TestCase):
         self.dr.search_input_loc.clear()
         self.dr.search_input_loc.send_keys('是')
         self.dr.search_button_loc.click()
-        self.assertText("百度一下")
+        self.assertText("是")
         print('用例说明：test02')
 
     def test03(self):
